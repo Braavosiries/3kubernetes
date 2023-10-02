@@ -3,7 +3,6 @@ kind: ServiceAccount
 metadata:
   name: kubedoom
   namespace: kubedoom
-
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
